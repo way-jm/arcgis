@@ -1,0 +1,58 @@
+.ant-row:not(.ant-form-item)>.ant-col {
+  padding-top:4px;
+  padding-bottom: 4px;
+}
+.ant-row-start {
+  justify-content: flex-start;
+  margin-left: -8px;
+  margin-right: -8px;
+  >.ant-col{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .ant-form-item-label{
+    min-width: 80px;
+  }
+  .anticon>* {
+    line-height: 1;
+  }
+  .anticon-down{
+    transition: all 0.3s;
+    height: 14px;
+  }
+}
+
+.ant-form-item-control:first-child:not([class^=ant-col-]):not([class*=" ant-col-"]) {
+  width: 100%;
+}
+.table-search-option .ant-form-item-control-input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.toolBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 24px;
+  line-height: 64px;
+  .table-toolbar-title{
+    flex: 1 1;
+    color: rgba(0,0,0,.85);
+    font-size: 15px;
+    line-height: 24px;
+    opacity: .85;
+  }
+}
+.tableWrapper .ant-table-tbody {
+  .ant-btn-link + .ant-btn-link{
+    padding-left: 8px;
+  }
+  .ant-btn-link{
+    padding: 0 ;
+  }
+}
+

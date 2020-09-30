@@ -1,0 +1,44 @@
+.login{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.form{
+  max-width: 400px;
+  width:90%;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  background: rgba(255,255,255,.8);
+  border-radius: 8px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 400px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px 5px rgba(40, 120, 255, 0.1), 0 16px 24px 2px rgba(0, 0, 0, 0.05);
+  .title{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 34px;
+    color: rgb(24, 144, 255);
+    text-align: center;
+    margin-top: 45px;
+  }
+  .formCon{
+    max-width: 430px;
+    width: 80%;
+    margin: 30px auto;
+  }
+  .loginBtn{
+    width: 100%;
+    left:50%;
+    margin-top: 15px;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .form {
+    right: 5%;
+  }
+}
